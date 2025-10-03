@@ -10,7 +10,6 @@ body {
     background-color: #111;
     color: #f5f5f5;
     padding: 2rem;
-
 }
 
 h1 {
@@ -221,4 +220,39 @@ body.portfolio .card p {
     font-size: 0.95rem;
     line-height: 1.4;
     color: #bbb;
+}
+
+.podcast-compare {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;            /* space between players */
+  margin: 2rem 0;
+  flex-wrap: wrap;      /* allows wrapping on small screens */
+}
+
+.podcast-track {
+  flex: 1 1 300px;      /* grow/shrink, min width 300px */
+  max-width: 400px;
+  text-align: center;
+  background-color: #1c1c1c;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.podcast-track h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.podcast-track audio {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #222;
+}
+
+.project-description {
+    margin: auto 10%;
 }
